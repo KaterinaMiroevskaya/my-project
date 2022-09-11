@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="search-city">
+        
+        <input class="input-city" type="text" placeholder="Enter a city" />
+        <input class="input-search"type="submit" value="🔍" />
+        <input class="input-current-city"type="submit" value="Current city" />
+      </form>
+      <h1>Kharkov</h1>
+      <h2>Sunday
+      </br>
+      June, 26
+      </h2>
+      <h3>
+        ☀️ <span id="temp">19</span></span><sup><span id="tempC"> ℃ </span>| <span id="tempF">℉</span></sup>
+      </h3>
+      <div class="row">
+        <div class="col">
+            <p class="date">Mon</br>27/06</p>
+            <p class="temp">28℃</br>☀️</p>
+        </div>
+        <div class="col">
+            <p class="date">Tue</br>28/06</p>
+            <p class="temp">22℃</br>🌧️</p>
+        </div>
+        <div class="col">
+            <p class="date">Wed</br>29/06</p>
+            <p class="temp">24℃</br>🌥️</p>
+        </div>
+        <div class="col">
+            <p class="date">Thu</br>30/06</p>
+            <p class="temp">26℃</br>⛅</p>
+        </div>
+        <div class="col">
+            <p class="date">Fri</br>01/07</p>
+            <p class="temp">30℃</br>☀️</p>
+        </div>
+      </div>
+
+    </div>
+    <script src="index.js">    </script>
+  </body>
+</html>
